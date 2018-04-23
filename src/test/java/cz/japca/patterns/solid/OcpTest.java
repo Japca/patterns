@@ -1,5 +1,6 @@
 package cz.japca.patterns.solid;
 
+import cz.japca.patterns.solid.ocp.ClassicFilter;
 import cz.japca.patterns.solid.ocp.Color;
 import cz.japca.patterns.solid.ocp.Item;
 import cz.japca.patterns.solid.ocp.LambdaFilter;
@@ -23,6 +24,7 @@ public class OcpTest {
 		Item house = new Item("House", Color.BLUE, Size.LARGE);
 
 		List<Item> items = List.of(apple, tree, house);
+		ClassicFilter classicFilter = new ClassicFilter();
 
 
 		LambdaFilter lambdaFilter = new LambdaFilter();
