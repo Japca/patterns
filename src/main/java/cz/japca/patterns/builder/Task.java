@@ -7,12 +7,12 @@ public class Task {
 
 	private final long id;
 	private final String taskName;
-	private final boolean set;
+	private final boolean parallel;
 
 	private Task(Builder builder) {
 		this.id = builder.id;
 		this.taskName = builder.taskName;
-		this.set = builder.set;
+		this.parallel = builder.set;
 	}
 
 	public long getId() {
@@ -23,13 +23,13 @@ public class Task {
 		return taskName;
 	}
 
-	public boolean isSet() {
-		return set;
+	public boolean isParallel() {
+		return parallel;
 	}
 
 	@Override
 	public String toString() {
-		return "Task{" + "id=" + id + ", taskName='" + taskName + '\'' + ", set=" + set + '}';
+		return "Task{" + "id=" + id + ", taskName='" + taskName + '\'' + ", parallel=" + parallel + '}';
 	}
 
 	public static class Builder {

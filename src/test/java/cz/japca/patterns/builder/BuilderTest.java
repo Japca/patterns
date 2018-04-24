@@ -16,7 +16,7 @@ public class BuilderTest {
 
 		TaskLombock taskLombock = TaskLombock.builder(36).
 				taskName("Lombock task name")
-				.set(false)
+				.parallel(false)
 				.build();
 
 	}

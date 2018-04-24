@@ -14,7 +14,7 @@ public class TaskLombock {
 
 	private final long id;
 	private final String taskName;
-	private final  boolean set;
+	private final boolean parallel;
 
 	public static TaskLombockBuilder builder(long id){
 		return new TaskLombockBuilder().id(id);
