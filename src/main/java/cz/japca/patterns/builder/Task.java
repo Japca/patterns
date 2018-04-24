@@ -1,13 +1,13 @@
-package cz.japca.patterns.builderPattern;
+package cz.japca.patterns.builder;
 
 /**
  * Created by Jakub krhovják on 3/5/18.
  */
 public class Task {
 
-	private long id;
-	private String taskName;
-	private boolean set;
+	private final long id;
+	private final String taskName;
+	private final boolean set;
 
 	private Task(Builder builder) {
 		this.id = builder.id;
@@ -19,24 +19,12 @@ public class Task {
 		return id;
 	}
 
-	public void setId(long id) {
-		this.id = id;
-	}
-
 	public String getTaskName() {
 		return taskName;
 	}
 
-	public void setTaskName(String taskName) {
-		this.taskName = taskName;
-	}
-
 	public boolean isSet() {
 		return set;
-	}
-
-	public void setSet(boolean set) {
-		this.set = set;
 	}
 
 	@Override

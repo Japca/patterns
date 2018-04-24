@@ -11,7 +11,6 @@ import java.util.stream.Stream;
 public class LambdaFilter {
 
 	public Stream<Item> filter(List<Item> items, Predicate<Item> selector) {
-		return items.stream()
-				.filter(selector);
+		return items.stream().filter(selector);
 	}
 }
