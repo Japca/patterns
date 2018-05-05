@@ -7,6 +7,7 @@ import org.junit.Test;
  */
 public class BuilderTest {
 
+
 	@Test
 	public void builderTest() {
 		Task task = new Task.Builder(3)
@@ -18,6 +19,7 @@ public class BuilderTest {
 				taskName("Lombock task name")
 				.parallel(false)
 				.build();
+
 
 	}
 }
