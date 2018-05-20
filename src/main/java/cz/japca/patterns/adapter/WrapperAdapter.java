@@ -7,7 +7,7 @@ import lombok.AllArgsConstructor;
  */
 
 @AllArgsConstructor
-public class CarAdapter implements Movable {
+public class WrapperAdapter implements Movable {
 
 	private Car car;
 
