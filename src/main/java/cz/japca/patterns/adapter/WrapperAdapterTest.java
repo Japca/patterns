@@ -6,7 +6,11 @@ package cz.japca.patterns.adapter;
 public class WrapperAdapterTest {
 
 	public static void main(String[] args) {
-		Movable movable = new CarAdapter(new Car());
+		Movable movable = getMovable();
 		movable.move(new Point(2, 3));
+	}
+
+	private static Movable getMovable() {
+		return new CarAdapter(new Car());
 	}
 }
