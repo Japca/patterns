@@ -1,4 +1,4 @@
-package cz.japca.patterns.factoryMethod;
+package cz.japca.patterns.SimplefactoryMethod;
 
 /**
  * Created by Jakub krhovják on 3/5/18.

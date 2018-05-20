@@ -1,4 +1,4 @@
-package cz.japca.patterns.factoryMethod;
+package cz.japca.patterns.SimplefactoryMethod;
 
 import lombok.extern.slf4j.Slf4j;
 

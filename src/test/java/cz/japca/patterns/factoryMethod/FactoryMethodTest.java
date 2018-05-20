@@ -1,5 +1,7 @@
 package cz.japca.patterns.factoryMethod;
 
+import cz.japca.patterns.SimplefactoryMethod.Circle;
+import cz.japca.patterns.SimplefactoryMethod.Shape;
 import org.junit.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
