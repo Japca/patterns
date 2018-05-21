@@ -18,6 +18,12 @@ public class AdapterTest {
 		movable.move(new Point(5, 7));
 
 
+		// Without adapter thanks to Lambda
+		movable = point -> new Car().move(point.getX(), point.getY());
+		movable.move(new Point(3, 5));
+
+
+
 	}
 
 	private static Movable getMovable(AdapterType adapterType) {
