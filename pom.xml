@@ -50,6 +50,14 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.diogonunes</groupId>
+            <artifactId>JCDP</artifactId>
+            <version>2.0.3.1</version>
+        </dependency>
+
+
+
         <!--<dependency>-->
             <!--<groupId>com.indeed</groupId>-->
             <!--<artifactId>util-serialization</artifactId>-->
